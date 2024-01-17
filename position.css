@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 70%;
+    height: 500px;
+    border: 1px solid red;
+    margin: 50px auto;
+    position: relative;
+}
+
+.relative {
+    width: 100px;
+    height: 50px;
+    background: #00f;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.absolute {
+    width: 100px;
+    height: 50px;
+    background: #f00;
+    position: absolute;
+    bottom: -20px;
+    right: -15px;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    border-radius: 50%;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background: #00f;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    z-index: 4;
+    border-radius: 50%;
+}
+
+body {
+    min-height: 500vh;
+}
+
+.sticky {
+    width: 200px;
+    height: 50px;
+    background: gold;
+    position: sticky;
+    top: 15px;
+    z-index: 2;
+    left: 0;
+}
+
+.reklama {
+    width: 200px;
+    height: 100px;
+    background: #ddd;
+    position: fixed;
+    top: 0;
+    right: 100px;
+    z-index: 11;
+}

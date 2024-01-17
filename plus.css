@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent {
+    width: 400px;
+    height: 350px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #191919;
+    ;
+}
+
+.box {
+    width: 180px;
+    height: 200px;
+    background: #E08027;
+    border-radius: 400px 400px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.around {
+    width: 55px;
+    height: 55px;
+    background: #824B20;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 200px;
+}
+
+.around_one {
+    width: 55px;
+    height: 55px;
+    background: rgb(239, 217, 94);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -200px;
+}
+
+.father {
+    width: 750px;
+    height: 600px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #E38F66;
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.mather {
+    width: 200px;
+    height: 200px;
+    background: #FFFBDA;
+    border-radius: 400px 400px 0px 0px;
+    margin: auto;
+
+
+}
+
+.child {
+    width: 300px;
+    height: 30px;
+    background: #FFFBDA;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFFBDA;
+    position: absolute;
+    left: 280px;
+    top: 270px;
+}
+
+.eye__one {
+    border-radius: 50%;
+    position: absolute;
+    left: 400px;
+    top: 260px;
+    width: 80px;
+    height: 80px;
+    border: 20px solid #FFFBDA; 
+}
+
+.nouse {
+    width: 100px;
+    height: 100px;
+    background: #FFFBDA;
+    position: absolute;
+    left: 280px;
+    top: 400px;
+    border-radius: 150px 150px 150px 0;
+}
+
+.nouse_two {
+    width: 100px;
+    height: 100px;
+    background: #FFFBDA;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    border-radius: 150px 150px 150px 0;
+    transform: rotateZ(265deg);
+}
